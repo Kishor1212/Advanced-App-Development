@@ -1,0 +1,54 @@
+.viewvenue
+{
+
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    margin-left: 150px;
+    
+}
+h6{
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(151, 91, 2);
+}
+.ser{
+    font-size: 15px;
+    color: black;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    /* padding-right: 20px; */
+}
+.view-container{
+    border :2px solid whitesmoke;
+    align-items:center;
+    justify-content:center;
+    width:25vw;
+    border-radius:10%;
+    padding:20px 0px 0px 100px;
+    margin :20px 10px 10px 25px;
+    margin-right: 20px;
+    background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background-image: url("") ; */
+    /* display:grid; */
+}
+.view-container img{
+    width:10vw;
+        height:20vh;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.viewvenue{
+    display :flex;
+
+}
+.butn{
+    background-color: blueviolet;
+}

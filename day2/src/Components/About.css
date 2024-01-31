@@ -1,0 +1,49 @@
+/* App.css */
+
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #004de7;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  /* AboutUs.css */
+  
+  .about-us-container {
+    max-width: 800px;
+    margin: 10px 290px;
+    padding: 20px;
+    background-image: url("back.jpg");
+  }
+  
+  .mission-section,
+  .what-sets-us-apart,
+  .contact-section {
+    margin-bottom: 40px;
+  }
+  
+  .contact-section p {
+    margin: 5px 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .about-us-container h2{
+    color: violet;
+  }
+  /* .image1{
+    background-image:url("back.jpg");
+    /* background-size: cover; 
+  } */
+  /* Styling for testimonials, team, and social media links can be added similarly */
+  

@@ -1,0 +1,87 @@
+ form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px 20px;
+    /* box-sizi unset; */
+    border: 2px solid rgb(248, 248, 248);
+    border-radius: 10px;
+    /* background-image: url("job.jpg"); */
+
+padding-left: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px 0 #4CAF50;
+  }
+  
+  .jb {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .jb:hover {
+    background-color: #3e8e41;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  } 
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 90px;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url("job.jpg"); */
+    /* margin-left: 10px; */
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  select,
+  textarea {
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .form-button{
+    background-color: blueviolet;
+  }
+  .block{
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 0 30px;
+    background-color: black;; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+  }
+ 
