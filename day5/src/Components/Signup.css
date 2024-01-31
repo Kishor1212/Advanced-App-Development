@@ -1,0 +1,79 @@
+/* .App {
+    text-align: center;
+    background-color: green;
+    margin: 0px 32vh;
+    margin:0;
+    box-sizing: border-box;
+} */
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+ 
+.label {
+    display: block;
+    font-size: larger;
+    /* color: white; */
+    padding: 5px;
+}
+ 
+.input {
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+ 
+}
+ 
+.btn {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+}
+ 
+.messages {
+    display: flex;
+    justify-content: center;
+}
+ 
+.error {
+    display: block;
+    background-color:lightblue;
+    /* color: white; */
+    width: fit-content;
+    height: 30px;
+    padding: 5px;
+}
+ 
+.success {
+    /* display: flex; */
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 5px;
+}
+.form1{
+    margin: 0px 50vh;
+   background-color: white; 
+   color: black;
+   box-sizing: border-box;
+   padding: 20px;   
+   text-align: center;
+   justify-content: center;
+   border-radius: 5%;
+   box-shadow: 5px 5px rgb(84, 109, 114), -10px -10px rgb(84, 109, 114) ;
+}
+/* *{
+    margin:0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+} */
