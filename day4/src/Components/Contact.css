@@ -1,0 +1,64 @@
+.contact-us-page {
+    padding: 2rem;
+    background-image: url("contact.jpg");
+    background-size:cover ;
+    margin: 10px 400px;
+  }
+  
+  .contact-us-page h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .contact-us-page form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-us-page label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .contact-us-page input[type="text"],
+  .contact-us-page input[type="email"],
+  .contact-us-page textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .contact-us-page textarea {
+    height: 150px;
+  }
+  
+  .contact-us-page input[type="tel"] {
+    width: 50%;
+  }
+  
+  .contact-us-page input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: #4CAF50;
+    color:black;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .contact-us-page input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
